@@ -2,7 +2,7 @@
 
 int solicit_ppl(void)
 {
-  printf("Give me two numbers:");
+  printf("Give me two numbers: ");
   return (0);
 }
 
@@ -18,10 +18,10 @@ int getJoyNum(void)
   int opt = -1;
   do
   {
-    printf("Give me a num [1 2 3 4]: ");
+    printf("Give me a num : ");
     scanf("%d",&opt);
   }
-  while(opt < 1 || opt > 4);
+  while(opt < 1 || opt > 100);
   return opt;
 }
 
